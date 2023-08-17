@@ -8,7 +8,7 @@
     "repository" : {
         "type":"git",
         "url":"https://github.com/JorgeTorres01/node-red-nodes.git",
-        "directory": "tree/v0.0.2/io/serialport"
+        "directory": "tree/v0.0.3/io/serialport"
     },
     "license": "Apache-2.0",
     "keywords": [ "node-red", "serial" ],
