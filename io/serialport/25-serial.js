@@ -43,6 +43,7 @@ module.exports = function(RED) {
 
             node.on("input",function(msg) {
                 if (msg.hasOwnProperty("baudrate")) {
+                    console.log("Jorge");
                     var baud = parseInt(msg.baudrate);
                     if (isNaN(baud)) {
                         node.error(RED._("serial.errors.badbaudrate"),msg);
